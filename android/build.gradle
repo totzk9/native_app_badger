@@ -1,5 +1,5 @@
-group 'ph.abad.native_app_badger.native_app_badger'
-version '1.0-SNAPSHOT'
+group 'ph.native_app_badger'
+version '1.0.0'
 
 buildscript {
     ext.kotlin_version = '1.7.10'
@@ -27,7 +27,7 @@ apply plugin: 'kotlin-android'
 
 android {
     if (project.android.hasProperty("namespace")) {
-        namespace 'ph.abad.native_app_badger.native_app_badger'
+        namespace 'ph.native_app_badger'
     }
 
     compileSdkVersion 34
