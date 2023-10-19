@@ -1,0 +1,21 @@
+name: native_app_badger
+description: A Flutter plugin for managing app icon badges.
+version: 1.0.0
+homepage:
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+  flutter: ">=3.10.5"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: ph.native_app_badger
+        pluginClass: NativeAppBadgerPlugin
+      ios:
+        pluginClass: NativeAppBadgerPlugin
